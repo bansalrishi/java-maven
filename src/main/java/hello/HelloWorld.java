@@ -19,5 +19,10 @@ public class HelloWorld {
         Scanner input = new Scanner(System.in);
         stuGPA = input.nextDouble();
         System.out.println(stuGPA);
+
+        Rectangle oneR = new Rectangle(10, 15);
+        double area = oneR.area();
+        System.out.println("Printing Area of Rectangle");
+        System.out.println(area);
     }
 }
