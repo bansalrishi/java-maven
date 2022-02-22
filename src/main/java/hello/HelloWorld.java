@@ -7,7 +7,7 @@ public class HelloWorld {
         Greeter greeter = new Greeter();
         System.out.println(greeter.sayHello());
         System.out.println("Hello World Primary!");
-        int stuAge = 5;
+        /*int stuAge = 5;
         double stuGPA = 8.28;
         String stuName = "Manoj Kumar";
         char stuFirInitial = stuName.charAt(0);
@@ -24,5 +24,12 @@ public class HelloWorld {
         double area = oneR.area();
         System.out.println("Printing Area of Rectangle");
         System.out.println(area);
+         */
+
+        StringBuffer strb = new StringBuffer("Welcome Home");
+        System.out.println(strb);
+        strb.insert(2, "Hello");
+        System.out.println(strb);
+
     }
 }
