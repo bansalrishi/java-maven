@@ -3,7 +3,7 @@ package hello;
 // Java code for thread creation by extending
 // the Thread class
 class MultithreadingDemo extends Thread {
-    public void run()
+    synchronized public void run()
     {
         try {
             // Displaying the thread that is running
